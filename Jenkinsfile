@@ -41,6 +41,7 @@ pipeline{
         {
             steps
             {
+                echo "github"
                 echo "this is deploy the code"
                 sh "docker compose up -d"
             }
