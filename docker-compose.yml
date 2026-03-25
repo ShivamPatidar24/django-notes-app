@@ -1,7 +1,8 @@
-version : "3.7"
-services :
-  web :
-     build :
-        context : .
-     ports :
-         _ "8000:8000"
+version: "3.7"
+
+services:
+  web:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
